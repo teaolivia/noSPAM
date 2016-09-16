@@ -1,0 +1,8 @@
+processed 271 tokens with 70 phrases; found: 65 phrases; correct: 42.
+accuracy:  85.24%; precision:  64.62%; recall:  60.00%; FB1:  62.22
+         DATETIME: precision:  80.00%; recall: 100.00%; FB1:  88.89  5
+         LOCATION: precision:  66.67%; recall:  66.67%; FB1:  66.67  3
+     ORGANIZATION: precision:  28.00%; recall:  87.50%; FB1:  42.42  25
+           PERSON: precision:  92.31%; recall:  37.50%; FB1:  53.33  13
+         POSITION: precision:  83.33%; recall:  62.50%; FB1:  71.43  12
+         QUANTITY: precision: 100.00%; recall: 100.00%; FB1: 100.00  7
