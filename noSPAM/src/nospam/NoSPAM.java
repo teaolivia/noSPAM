@@ -8,7 +8,6 @@ package nospam;
 import IndonesianNLP.*;
 import com.opencsv.*;
 import java.io.*;
-import java.util.List;  
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.Arrays;
@@ -26,7 +25,7 @@ public class NoSPAM {
         try {
             // convert CSV to List
             CSVReader reader;
-            reader = new CSVReader(new FileReader("d:/dataset.csv"));
+            reader = new CSVReader(new FileReader("../dataset/dataset.csv"));
 //            List myEntries = reader.readAll();
             
 //            for (int i=0; i < myEntries.size(); i++){
