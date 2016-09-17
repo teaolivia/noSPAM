@@ -5,13 +5,18 @@
  */
 package nospam;
 
-import java.util.Set;
-import java.util.HashSet;
+import java.util.ArrayList;
+import java.lang.String;
+import java.io.*;
+
 
 /**
  *
  * @author theaolivia
  */
-public class Lemmatize {
-    Set<String> dictionary = new HashSet<>();
+public class RemoveStopwords {
+    public String sCurrentLine;
+    public ArrayList<String> stopwords = new ArrayList<String>();
+    
+    
 }
